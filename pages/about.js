@@ -1,11 +1,10 @@
 import React from 'react';
-
 import Layout from '../components/Layout';
 
-export default function Home() {
+export default function About() {
   return (
     <Layout>
-      <p>Hello Next.js</p>
+      <p>This is the about page</p>
     </Layout>
   );
 }
