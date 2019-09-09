@@ -1,9 +1,16 @@
 import React from 'react';
-import Link from 'next/link';
+import { makeStyles } from '@material-ui/core/styles';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+import Typography from '@material-ui/core/Typography';
 
-const linkStyle = {
-  marginRight: 15,
-};
+import Link from './Link';
+
+const useStyles = makeStyles(theme => ({
+  title: {
+    flexGrow: 1,
+  },
+}));
 
 const links = [
   { href: '/', label: 'Home' },
@@ -16,13 +23,19 @@ const links = [
 });
 
 export default function Header() {
+  const classes = useStyles();
   return (
-    <div>
-      {links.map(({ key, href, label }) => (
-        <Link key={key} href={href}>
-          <a style={linkStyle}>{label}</a>
-        </Link>
-      ))}
-    </div>
+    <AppBar color="default" elevation={0}>
+      <Toolbar>
+        <Typography variant="h6" className={classes.title}>
+          Pavlos Vos
+        </Typography>
+        {links.map(({ key, href, label }) => (
+          <Link key={key} href={href}>
+            {label}
+          </Link>
+        ))}
+      </Toolbar>
+    </AppBar>
   );
 }

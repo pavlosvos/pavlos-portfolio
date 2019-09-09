@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import Container from '@material-ui/core/Container';
+import Toolbar from '@material-ui/core/Toolbar';
 import Header from './Header';
 
 export default function Layout(props) {
+  const { children } = props;
   return (
-    <div>
+    <Fragment>
       <Header />
-      {props.children}
-    </div>
+      <Toolbar />
+      <Container>{children}</Container>
+    </Fragment>
   );
 }
