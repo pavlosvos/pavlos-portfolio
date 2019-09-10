@@ -1,11 +1,11 @@
 import React from 'react';
-
-import Layout from '../components/Layout';
+import Layout from '../src/components/Layout';
+import Portfolio from '../src/pages/home/Portfolio';
 
 export default function Home() {
   return (
     <Layout>
-      <p>Hello Next.js</p>
+      <Portfolio />
     </Layout>
   );
 }

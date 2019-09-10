@@ -14,6 +14,27 @@ const theme = createMuiTheme({
   },
   typography: {
     fontFamily: '"Poppins", "Helvetica", "Arial", sans-serif',
+    fontSize: 18,
+    h1: {
+      fontSize: '4rem',
+      fontWeight: 700,
+    },
+    h2: {
+      fontSize: '2.5rem',
+      fontWeight: 700,
+    },
+    h3: {
+      fontSize: '1.75rem',
+    },
+    h4: {
+      fontSize: '1.5rem',
+    },
+    h5: {
+      fontSize: '1.25rem',
+    },
+    h6: {
+      fontSize: '1rem',
+    },
   },
   overrides: {
     MuiAppBar: {
