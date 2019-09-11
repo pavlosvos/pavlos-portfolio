@@ -14,6 +14,10 @@ class MyDocument extends Document {
             content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"
           />
           <meta name="theme-color" content={theme.palette.primary.main} />
+          <meta
+            name="description"
+            content="I excel at being a Agile UX Consultant, mentor, and coach in Web & Mobile development projects."
+          />
           <link
             href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700&display=swap"
             rel="stylesheet"

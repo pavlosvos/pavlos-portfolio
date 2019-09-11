@@ -1,10 +1,9 @@
 import React from 'react';
-import { withRouter } from 'next/router';
-import clsx from 'clsx';
 import { withStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
+
+import Typography from './Typography';
 
 import Link from './Link';
 
@@ -19,6 +18,7 @@ const styles = theme => ({
     paddingBottom: theme.spacing(1),
     marginLeft: theme.spacing(2),
     marginRight: theme.spacing(2),
+    lineHeight: '20px',
     '&:after': {
       content: '""',
       backgroundColor: theme.palette.primary.main,
@@ -49,11 +49,11 @@ const links = [
 });
 
 function Header(props) {
-  const { router, classes } = props;
+  const { classes } = props;
   return (
     <AppBar color="default" elevation={0}>
       <Toolbar>
-        <Typography variant="h6" className={classes.brand}>
+        <Typography variant="h4" component="div" className={classes.brand}>
           Pavlos Vos
         </Typography>
         {links.map(({ key, href, label }) => (
@@ -61,9 +61,8 @@ function Header(props) {
             key={key}
             href={href}
             underline="none"
-            className={clsx(classes.link, {
-              [classes.active]: router.pathname === href,
-            })}
+            activeClassName={classes.active}
+            className={classes.link}
           >
             {label}
           </Link>
@@ -73,4 +72,4 @@ function Header(props) {
   );
 }
 
-export default withRouter(withStyles(styles, { name: 'Header' })(Header));
+export default withStyles(styles, { name: 'Header' })(Header);
