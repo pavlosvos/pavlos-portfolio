@@ -12,9 +12,9 @@ export default function Portfolio() {
       <Grid container spacing={4} alignItems="center">
         <Grid item sm={6} xs={12}>
           <SectionTitle primary="Agile UX Designer" secondary="Portfolio" />
-          <Typography variant="subheader">
-            I guide teams with UX methodologies to improve the end-user
-            experience and to exceed client’s expectations
+          <Typography variant="subheader" style={{fontStyle: 'italic'}}>
+            I guide teams <span style={{color:'lightgray'}}>with UX methodologies</span> to improve the end-user
+            experience <span style={{color:'lightgray'}}>and to </span>exceed <span style={{color:'lightgray'}}>client’s</span> expectations
           </Typography>
         </Grid>
         <Grid item sm={6} xs={12} container justify="center">
