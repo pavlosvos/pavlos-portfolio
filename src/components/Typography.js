@@ -28,6 +28,9 @@ const styles = theme => {
     body1: buildVariant(400, 18, 28, 0),
     body2: buildVariant(400, 16, 24, 0),
     caption: buildVariant(400, 14, 14, 0),
+    alignCenter: {
+      textAlign: 'center',
+    },
     gutterBottom: {
       marginBottom: theme.spacing(2),
     },
@@ -59,6 +62,7 @@ const Typography = forwardRef(function Typography(props, ref) {
     component,
     variant = 'body1',
     color = 'initial',
+    align = 'inherit',
     gutterBottom = false,
     ...other
   } = props;
@@ -70,6 +74,7 @@ const Typography = forwardRef(function Typography(props, ref) {
         {
           [classes[variant]]: variant,
           [classes[`color${capitalize(color)}`]]: color !== 'initial',
+          [classes[`align${capitalize(align)}`]]: align !== 'inherit',
           [classes.gutterBottom]: gutterBottom,
         },
         className
@@ -93,6 +98,7 @@ Typography.propTypes = {
     'caption',
   ]),
   color: PropTypes.oneOf(['initial', 'inherit', 'primary']),
+  align: PropTypes.oneOf(['inherit', 'center']),
 };
 
 export default withStyles(styles, { name: 'Typography' })(Typography);

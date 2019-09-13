@@ -30,11 +30,21 @@ export default function Explanation() {
             </Typography>
           ))}
         </Grid>
-        <Grid item sm={6} xs={12} container justify="center">
+        <Grid
+          item
+          sm={6}
+          xs={12}
+          container
+          justify="center"
+          alignItems="center"
+        >
           <img
             src="/static/explanation.png"
             alt="explanation"
-            style={{ maxWidth: '100%', height: 'auto' }}
+            style={{
+              maxWidth: '100%',
+              height: 'auto',
+            }}
           />
         </Grid>
       </Grid>

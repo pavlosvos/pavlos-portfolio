@@ -4,6 +4,7 @@ import Layout from '../src/components/Layout';
 import Portfolio from '../src/pages/home/Portfolio';
 import AboutMe from '../src/pages/home/AboutMe';
 import Explanation from '../src/pages/home/Explanation';
+import Features from '../src/pages/home/Features';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Portfolio />
       <AboutMe />
       <Explanation />
+      <Features />
     </Layout>
   );
 }
