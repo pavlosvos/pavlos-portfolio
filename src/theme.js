@@ -16,6 +16,11 @@ const theme = createMuiTheme({
     fontFamily: '"Poppins", "Helvetica", "Arial", sans-serif',
     fontSize: 14,
   },
+  props: {
+    MuiButtonBase: {
+      disableRipple: true,
+    },
+  },
   overrides: {
     MuiAppBar: {
       colorDefault: {
