@@ -1,10 +1,14 @@
 import React from 'react';
-import Layout from '../src/components/Layout';
+
+import Layout from '../src/layout/Page';
+import Markdown from '../src/components/Markdown';
+
+import content from './about.md';
 
 export default function About() {
   return (
-    <Layout>
-      <p>This is the about page</p>
+    <Layout containerProps={{ maxWidth: 'md' }}>
+      <Markdown>{content}</Markdown>
     </Layout>
   );
 }

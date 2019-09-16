@@ -2,10 +2,10 @@ import React, { Fragment } from 'react';
 import Toolbar from '@material-ui/core/Toolbar';
 import Hidden from '@material-ui/core/Hidden';
 
-import Header from './Header';
-import MobileMenu from './MobileMenu';
+import Header from '../components/Header';
+import MobileMenu from '../components/MobileMenu';
 
-export default function Layout(props) {
+export default function DefaultLayout(props) {
   const { children } = props;
   return (
     <Fragment>
