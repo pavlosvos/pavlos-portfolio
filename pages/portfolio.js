@@ -1,10 +1,11 @@
 import React from 'react';
 import Layout from '../src/layout/Page';
+import SectionTitle from '../src/components/SectionTitle';
 
 export default function Portfolio() {
   return (
     <Layout>
-      <p>This is the portfolio page</p>
+      <SectionTitle primary="Allowed to show online" secondary="Portfolio" />
     </Layout>
   );
 }
