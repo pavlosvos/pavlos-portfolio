@@ -6,7 +6,7 @@ import SectionTitle from '../src/components/SectionTitle';
 const PortfolioLink = props => (
   <li>
     <Link href="/portfolio/[slug]" as={`/portfolio/${props.slug}`}>
-      <a>{props.slug}</a>
+      {props.slug}
     </Link>
   </li>
 );
