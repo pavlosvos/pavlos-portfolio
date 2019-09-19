@@ -26,17 +26,17 @@ const sections = [
     content: [
       {
         title: 'Prototyping',
-        description: 'Mobile & web UI sketching Prototypes',
+        description: 'Rapid Paper Prototypes, Mobile & Web Interactive Prototypes',
         icon: <PrototypingIcon style={iconStyle} />,
       },
       {
         title: 'User Centric Design',
-        description: 'User Centric Design, Google Design Sprints',
+        description: 'Facilitate Design Thinking Workshops & Google Design Sprints',
         icon: <CustomerCentricityIcon style={iconStyle} />,
       },
       {
         title: 'User Experience Designer',
-        description: 'Wireframes & user flows High fidelity mockups',
+        description: 'Ideation, User Research, User Flows & High Fidelity Mockups',
         icon: <AmbientIcon style={iconStyle} />,
       },
     ],
