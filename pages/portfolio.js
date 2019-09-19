@@ -1,34 +1,20 @@
 import React from 'react';
 import Layout from '../src/layout/Page';
-import Link from '../src/components/Link';
-import SectionTitle from '../src/components/SectionTitle';
-
-const PortfolioLink = props => (
-  <li>
-    <Link href="/portfolio/[slug]" as={`/portfolio/${props.slug}`}>
-      {props.slug}
-    </Link>
-  </li>
-);
-
-const portfolioPage = [
-  'car-sharing-startup',
-  'conversion-driven-ux-improvements',
-  'e-banking-mobile-app',
-  'food-finder-web-application',
-  'redesign-homepage',
-  'ux-improvement-blind-folded-user-testing',
-];
+import Iframe from 'react-iframe'
 
 export default function Portfolio() {
   return (
     <Layout>
-      <SectionTitle primary="Allowed to show online" secondary="Portfolio" />
-      <ul>
-        {portfolioPage.map(item => (
-          <PortfolioLink slug={item} key={item} />
-        ))}
-      </ul>
+      <Iframe url="https://pavlosvos.myportfolio.com/"
+        width="100%"
+        height="900px"
+        max-width="100%"
+        frameBorder="0"
+        id="myId"
+        className="myClassname"
+        display="block"
+        position="relative"
+        styles={{height: "100%"}}/>
     </Layout>
   );
 }
