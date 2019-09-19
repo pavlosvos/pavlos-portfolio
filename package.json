@@ -1,5 +1,6 @@
 {
   "name": "pavlos-portfolio",
+  "homepage": "http://vos.gr",
   "version": "0.1.0",
   "private": true,
   "scripts": {
