@@ -4,7 +4,6 @@ import Grid from '@material-ui/core/Grid';
 
 import Section from '../../components/Section';
 import SectionTitle from '../../components/SectionTitle';
-import Markdown from '../../components/Markdown';
 
 import description from './about.md';
 
@@ -33,7 +32,7 @@ function AboutMe(props) {
             primary="Agile UX Designer & Unconscious Bias Advocate"
             secondary="About Me"
           />
-          <Markdown>{description}</Markdown>
+          {description}
         </Grid>
       </Grid>
     </Section>

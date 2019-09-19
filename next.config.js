@@ -1,14 +1,6 @@
-module.exports = {
-    webpack: config => {
-        config.node = {
-            fs: 'empty',
-            module: 'empty',
-        };
-        config.module.rules.push({
-            test: /\.(md)$/,
-            loader: 'raw-loader',
-        });
-
-        return config;
-    },
-};
+const withMDX = require('@next/mdx')({
+  extension: /\.mdx?$/,
+});
+module.exports = withMDX({
+  pageExtensions: ['js', 'jsx', 'md', 'mdx'],
+});

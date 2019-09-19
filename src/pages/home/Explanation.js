@@ -3,7 +3,6 @@ import Grid from '@material-ui/core/Grid';
 
 import Section from '../../components/Section';
 import SectionTitle from '../../components/SectionTitle';
-import Markdown from '../../components/Markdown';
 
 import description from './explanation.md';
 
@@ -17,7 +16,7 @@ export default function Explanation() {
       <br />
       <Grid container spacing={10}>
         <Grid item sm={6} xs={12}>
-          <Markdown>{description}</Markdown>
+          {description}
         </Grid>
         <Grid
           item
