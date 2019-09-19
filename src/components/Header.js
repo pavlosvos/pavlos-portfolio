@@ -7,6 +7,7 @@ import Hidden from '@material-ui/core/Hidden';
 import Typography from './Typography';
 
 import NavLink from './NavLink';
+import Link from './Link';
 
 const styles = theme => ({
   brand: {
@@ -20,9 +21,15 @@ function Header(props) {
   return (
     <AppBar color="default" elevation={0}>
       <Toolbar>
-        <Typography variant="h4" component="div" className={classes.brand}>
+        <Link
+          variant="h4"
+          className={classes.brand}
+          href="/"
+          underline="none"
+          color="initial"
+        >
           Pavlos Vos
-        </Typography>
+        </Link>
         <Hidden smDown>
           <NavLink />
         </Hidden>
