@@ -1,9 +1,12 @@
 # About me
 
-I excel at being a Agile UX Consultant, mentor, and coach in Web & Mobile development projects.
+Pavlos has been described as a team catalyst with his friendly and **outgoing extrovert persona**. A natural **communicator and motivator** with a *multicultural background*. (EN/DE/GR)
 
-Having worked as a hybrid designer and developer, I am uniquely qualified to bridge both rolls and lead multi-discipline teams to the successful creation of even the most challenging projects.
+Degree in **Graphic Design & 3D Design** - Athens.
+His portfolio gave him a **direct 3rd year entry** to the *Graphic Communication Bachelor* program in Wolverhampton. 
+**Graduated with BA Honors**
 
-My international career has given me the opportunity to lead UX/UI teams on a broad spectrum of mission-critical projects for clients that include Bundesagentur für Arbeit, Allianz, EON, and The Abu Dhabi Executive Office and Givaudan in Kemptthal and Paris.
+**User Interface Expert** with with a high level of *technical knowledge and experience*.
 
-In my career, I have worked for start-ups, mature internet companies, and consulting firms; giving me a qualified perspective on different aspects of the business. I am a strong proponent for Agile UX methodologies and the efficiency benefits they bring to projects and organizations.
+Wide experience in conception, execution and evaluation of frontend User Interfaces for large scale applications.
+Longtime experience as a **UX Designer** with in-depth knowledge of web technologies.
