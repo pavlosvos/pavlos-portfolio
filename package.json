@@ -17,6 +17,7 @@
     "prop-types": "^15.7.2",
     "raw-loader": "^3.1.0",
     "react": "16.9.0",
-    "react-dom": "16.9.0"
+    "react-dom": "16.9.0",
+    "react-protected-mailto": "^1.0.3"
   }
 }
