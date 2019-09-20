@@ -16,6 +16,6 @@ export default function Contact() {
           {cc:'daheib@gmail.com'}
         }/>
       </span>
-    </Layout>
+    </Layout>  
   );
 }
