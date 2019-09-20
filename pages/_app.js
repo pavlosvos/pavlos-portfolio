@@ -20,6 +20,7 @@ export default class MyApp extends App {
     return (
       <Fragment>
         <Head>
+        <link rel="stylesheet" href="/static/contact.css" />
           <title>Pavlos Vos portfolio</title>
         </Head>
         <ThemeProvider theme={theme}>

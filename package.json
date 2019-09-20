@@ -21,5 +21,9 @@
     "react-dom": "16.9.0",
     "react-iframe": "^1.8.0",
     "react-protected-mailto": "^1.0.3"
+  },
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "style-loader": "^1.0.0"
   }
 }
