@@ -2,7 +2,6 @@ import React from 'react';
 import Layout from '../src/layout/Page';
 import Mailto from 'react-protected-mailto'
 import SectionTitle from '../src/components/SectionTitle';
-import Iframe from 'react-iframe'
 
 export default function Contact() {
   return (
@@ -17,20 +16,6 @@ export default function Contact() {
           {cc:'daheib@gmail.com'}
         }/>
       </span>
-      <Iframe url="https://pavlosvos.myportfolio.com/contact"
-        width="100%"
-        height="500px"
-        max-width="100%"
-        frameBorder="0"
-        id="myId"
-        className="myClassname"
-        display="block"
-        position="relative"
-        styles={{height: "100%"}}/>
-    </Layout>
+    </Layout>  
   );
 }
-
-// .page-header, .logo.logo-text, .site-header, .back-to-top, .site-footer {
-//   display: none;
-// These styles should be added to remove the Adobe styles ;)
