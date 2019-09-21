@@ -4,8 +4,6 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Hidden from '@material-ui/core/Hidden';
 
-import Typography from './Typography';
-
 import NavLink from './NavLink';
 import Link from './Link';
 
