@@ -1,5 +1,4 @@
 import React from 'react';
-// import Iframe from 'react-iframe';
 import Layout from '../src/layout/Page';
 
 export default function Portfolio() {
