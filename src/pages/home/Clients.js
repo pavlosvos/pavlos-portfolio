@@ -22,7 +22,11 @@ export default function Clients() {
           </Typography>
         </Grid>
         <Grid item sm={6} xs={12}>
+<<<<<<< HEAD
           <a href={social.linkedin} target="_blank" ref="nofollow">
+=======
+          <a href={social.linkedin} target="_blank" ref="no-follow">
+>>>>>>> e29edc6e6d2617f722016da4eda7f085b95319ca
             <Image src="/static/clients_banner.png" alt="clients_banner" />
           </a>
         </Grid>
