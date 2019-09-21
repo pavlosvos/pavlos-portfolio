@@ -5,6 +5,7 @@ import Portfolio from '../src/pages/home/Portfolio';
 import AboutMe from '../src/pages/home/AboutMe';
 import Explanation from '../src/pages/home/Explanation';
 import Features from '../src/pages/home/Features';
+import Compagnies from '../src/pages/home/Compagnies';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <AboutMe />
       <Explanation />
       <Features />
+      <Compagnies />
     </Layout>
   );
 }
