@@ -1,5 +1,6 @@
 import React from 'react';
 import Mailto from 'react-protected-mailto';
+import { contactInfo } from '../config';
 import Layout from '../src/layout/Page';
 import SectionTitle from '../src/components/SectionTitle';
 import Typography from '../src/components/Typography';
@@ -13,9 +14,9 @@ export default function Contact() {
       />
       <Typography> If you want to chat please contact me at</Typography>
       <Typography>
-        Phone: <Mailto tel="0041 767 22 11 43" /> & Email:{' '}
+        Phone: <Mailto tel={contactInfo.tel} /> & Email:{' '}
         <Mailto
-          email="pavlos@vos.gr"
+          email={contactInfo.email}
           headers={
             ({ subject: 'let’s talk about you UX needs' },
             { cc: 'daheib@gmail.com' })

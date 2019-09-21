@@ -1,11 +1,20 @@
 import React, { Fragment } from 'react';
+import { withStyles } from '@material-ui/core/styles';
 import Toolbar from '@material-ui/core/Toolbar';
 import Hidden from '@material-ui/core/Hidden';
-
 import Header from './Header';
 import MobileMenu from './MobileMenu';
 
-export default function Layout(props) {
+const styles = theme => ({
+  '@global': {
+    a: {
+      color: 'red',
+      textDecoration: 'none',
+    },
+  },
+});
+
+function Layout(props) {
   const { children } = props;
   return (
     <Fragment>
@@ -18,3 +27,5 @@ export default function Layout(props) {
     </Fragment>
   );
 }
+
+export default withStyles(styles, { name: 'Layout' })(Layout);

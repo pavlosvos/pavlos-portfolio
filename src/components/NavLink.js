@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { withStyles } from '@material-ui/core/styles';
-
 import Link from './Link';
+import { siteLinks } from '../../config';
 
 const styles = theme => ({
   root: {
@@ -33,12 +33,7 @@ const styles = theme => ({
   active: {},
 });
 
-const links = [
-  { href: '/', label: 'Home' },
-  { href: '/about', label: 'About' },
-  { href: '/portfolio', label: 'Portfolio' },
-  { href: '/contact', label: 'Contact' },
-].map(link => {
+const links = siteLinks.map(link => {
   link.key = `nav-link-${link.href}-${link.label}`;
   return link;
 });

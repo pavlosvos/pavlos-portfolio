@@ -18,6 +18,10 @@ const styles = theme => {
       margin: 0,
       display: 'block',
       textDecoration: 'none',
+      '& > a': {
+        color: theme.palette.primary.main,
+        textDecoration: 'none',
+      },
     },
     hero: buildVariant(500, 96, 100, -6),
     h1: buildVariant(700, 72, 82, -4),

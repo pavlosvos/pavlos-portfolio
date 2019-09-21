@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import Grid from '@material-ui/core/Grid';
 import Section from '../../components/Section';
 import Image from '../../components/Image';
@@ -22,13 +23,11 @@ export default function Clients() {
           </Typography>
         </Grid>
         <Grid item sm={6} xs={12}>
-<<<<<<< HEAD
-          <a href={social.linkedin} target="_blank" ref="nofollow">
-=======
-          <a href={social.linkedin} target="_blank" ref="no-follow">
->>>>>>> e29edc6e6d2617f722016da4eda7f085b95319ca
-            <Image src="/static/clients_banner.png" alt="clients_banner" />
-          </a>
+          <Link href={social.linkedin} prefetch={false}>
+            <a target="_blank" ref="nofollow">
+              <Image src="/static/clients_banner.png" alt="clients_banner" />
+            </a>
+          </Link>
         </Grid>
         <Grid item sm={6} xs={12}>
           <Blockquote>
