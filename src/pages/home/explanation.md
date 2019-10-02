@@ -1,7 +1,19 @@
-I excel at being a Agile UX Consultant, mentor, and coach in Web & Mobile development projects.
+**[the Agile UX Design process]** is about designing and prototyping and making. When you separate those, I think the final result suffers.
 
-Having worked as a hybrid designer and developer, I am uniquely qualified to bridge both rolls and lead multi-discipline teams to the successful creation of even the most challenging projects.
+**Three foundations of Lean UX**
 
-My international career has given me the opportunity to lead UX/UI teams on a broad spectrum of mission-critical projects for clients that include Bundesagentur für Arbeit, Allianz, EON, and The Abu Dhabi Executive Office and Givaudan in Kemptthal and Paris.
+*Design Thinking:* think like a designer, drive the business direction by observing what people want and need, like or dislike and refine requirements accordingly
 
-In my career, I have worked for start-ups, mature internet companies, and consulting firms; giving me a qualified perspective on different aspects of the business. I am a strong proponent for Agile UX methodologies and the efficiency benefits they bring to projects and organizations.
+*Agile Software Development:* 
+Lean UX applies the four core principles of Agile development
+
+* Individuals and interactions over processes and tools
+
+* Working software over comprehensive documentation
+
+* Customer collaboration over contract negotiation
+
+* Responding to change over following a plan
+
+**Lean Startup Methods:** 
+build the Minimum Viable Products (MVPs) for rapid learning of market response
