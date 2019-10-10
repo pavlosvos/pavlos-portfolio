@@ -13,13 +13,13 @@ export default function Clients() {
       <Grid container spacing={4} alignItems="center">
         <Grid item xs={12}>
           <Typography variant="h3" align="center">
-            What My Clients Say
+            What people I have worked with say
           </Typography>
           <Typography align="center">
             I take great pride in what I do and the career I have chosen, but
             don’t
             <br />
-            just take my word for it, see what some of my clients have to say!
+            just take my word for it, see what some humans have to say!
           </Typography>
         </Grid>
         <Grid item sm={6} xs={12}>
