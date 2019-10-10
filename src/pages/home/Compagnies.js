@@ -22,7 +22,7 @@ export default function Compagnies() {
   return (
     <Section>
       <SectionTitle
-        primary="Some of the People We’ve Worked With"
+        primary="Some of the teams I have worked with"
         secondary="Experience"
       />
       <Grid container>

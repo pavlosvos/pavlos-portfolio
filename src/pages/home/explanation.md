@@ -2,17 +2,15 @@
 
 **Three foundations of Lean UX**
 
-*Design Thinking:* think like a designer, drive the business direction by observing what people want and need, like or dislike and refine requirements accordingly
 
-*Agile Software Development:* 
+**Design Thinking:** think like a designer, drive the business direction by observing what people want and need, like or dislike and refine requirements accordingly
+
+**Agile Software Development:** 
 Lean UX applies the four core principles of Agile development
 
-* Individuals and interactions over processes and tools
-
-* Working software over comprehensive documentation
-
-* Customer collaboration over contract negotiation
-
+* Individuals and interactions over processes and tools 
+* Working software over comprehensive documentation 
+* Customer collaboration over contract negotiation 
 * Responding to change over following a plan
 
 **Lean Startup Methods:** 
