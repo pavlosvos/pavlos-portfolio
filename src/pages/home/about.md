@@ -1,4 +1,4 @@
-I excel at being a Agile UX Consultant, mentor, and coach in Web & Mobile development projects.
+I excel at being an Agile UX Consultant, mentor, and coach in Web & Mobile development projects.
 
 Having worked as a hybrid designer and developer, I am uniquely qualified to bridge both rolls and lead multi-discipline teams to the successful creation of even the most challenging projects.
 

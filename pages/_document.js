@@ -16,7 +16,7 @@ class MyDocument extends Document {
           <meta name="theme-color" content={theme.palette.primary.main} />
           <meta
             name="description"
-            content="I excel at being a Agile UX Consultant, mentor, and coach in Web & Mobile development projects."
+            content="I excel at being an Agile UX Consultant, mentor, and coach in Web & Mobile development projects."
           />
           <link
             href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700&display=swap"
