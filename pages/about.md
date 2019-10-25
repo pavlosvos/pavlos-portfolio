@@ -34,4 +34,12 @@ The user is always right even if he is wrong             |  Waterfall in real li
 
 
 
+<br/><br/>
+
+
+Mamio AI Startup Bits & Pretzels pitch
+:-------------------------:|
+<a href="https://www.youtube.com/watch?v=ZkEaIB2luoA&feature=youtu.be" target="_blank"><img src="static/youtubevideomamiostartup.png" alt="Mamio AI Startup winner Accenture Hackathon bits and pretzels pitch" width="500" height="269" border="10" /></a> 
+
+
 
