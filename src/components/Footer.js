@@ -20,11 +20,11 @@ const socialAccounts = [
 
 const styles = theme => ({
   root: {
+    height: 380,
     marginTop: 56,
     marginBottom: 16,
-    // backgroundImage: 'url(/static/body_bg.png)',
-    // backgroundSize: 'cover',
-    // backgroundPosition: 'bottom',
+    backgroundImage: 'url(/static/body_bg_mountains.png)',
+    backgroundPosition: 'top',
   },
   socialBar: {
     height: 56,
