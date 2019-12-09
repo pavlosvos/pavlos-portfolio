@@ -20,7 +20,7 @@ export default function Portfolio() {
         <Grid item sm={6} xs={12} container justify="center">
           <Avatar
             alt="avatar"
-            src="/static/avatar.png"
+            src="/static/avatar_pavlosvos.png"
             style={{ width: 400, height: 400 }}
           />
         </Grid>

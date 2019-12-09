@@ -28,7 +28,7 @@ export default function Explanation() {
           alignItems="center"
         >
           <img
-            src="/static/explanationagileuxdesigner.png"
+            src="/static/explanation_agile_uxdesigner.png"
             alt="explanation"
             style={{
               maxWidth: '100%',
